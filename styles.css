@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+form div,select{
+	margin-bottom: 10px;
+}
+input{
+	height: 20px;
+	width: 60%;
+}
+input[type="checkbox"],input[type="radio"]{
+	width: auto;
+	height: 20px;
+	width: 20pxpx;
+}
+.gender{
+	display: flex;
+	align-items: center;
+}
+.checkAlign{
+	display: flex;
+	align-items: center;
+}
+select{
+	padding: 8px 8px;
+	width: 60%;
+}
